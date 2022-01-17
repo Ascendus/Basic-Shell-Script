@@ -8,11 +8,6 @@ echo $TEXT
 echo "This is one line.
 This is another line!"
 
-echo "Enter a file name:"
-read FILE_NAME
-touch "${FILE_NAME}_file"
-echo "I've created a file called ${FILE_NAME} file!"
-
 for i in 1 2 3 4 5 6 7 8 9 10
 do
     echo "Looping... number $i"
