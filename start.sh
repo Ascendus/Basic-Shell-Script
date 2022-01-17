@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # This is a comment!
 TEXT="Hello, World!"
