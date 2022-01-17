@@ -1,2 +1,2 @@
-# Basic Shell Script
-My first basic Shell script!
+# Basic Shell Scripts
+My first basic Shell scripts!
