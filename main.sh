@@ -8,18 +8,6 @@ echo $TEXT
 echo "This is one line.
 This is another line!"
 
-echo "Enter a value:"
-read FIRST_VALUE
-
-echo "Enter a math operator:"
-read OPERATOR
-
-echo "Enter another value:"
-read SECOND_VALUE
-
-echo "Your number is:"
-expr $FIRST_VALUE $OPERATOR $SECOND_VALUE
-
 echo "Enter a file name:"
 read FILE_NAME
 touch "${FILE_NAME}_file"
