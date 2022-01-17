@@ -5,12 +5,6 @@ TEXT="Hello, World!"
 echo $TEXT
 # This is a comment, too!
 
-echo "What's your name?"
-read NAME # Terminal input function
-echo "Nice to meet you, $NAME."
-echo "Today's date is:"
-date
-
 echo "This is one line.
 This is another line!"
 
