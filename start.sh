@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 
 # This is a comment!
 TEXT="Hello, World!"
@@ -31,6 +31,9 @@ read FILE_NAME
 touch "${FILE_NAME}_file"
 echo "I've created a file called ${FILE_NAME} file!"
 
-sudo apt install nodejs
+# curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+# sudo apt-get install -y nodejs
+# sudo apt-get install -y build-essential
 
 node --version
+npm --version
